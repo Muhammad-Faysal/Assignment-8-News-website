@@ -174,7 +174,7 @@ outline: none;
 .bannerimg img{
 
     height: 300px;
-    width: 800px;
+    width: 500px;
 
     /* box-shadow: 2px 5px 10px cadetblue; */
 
@@ -272,6 +272,7 @@ width: 850px;
     color: white;
     font-weight: bold;
     margin-top: 100px;
+    margin-left: 44px;
 }
 
 
