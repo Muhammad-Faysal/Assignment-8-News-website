@@ -289,6 +289,7 @@ width: 850px;
      background-color: cornflowerblue;
      padding: 12px;
      transition: 0.7s all;
+     color: black;
 }
 
 
@@ -341,6 +342,7 @@ font-size: 30px;
     background-color: rgb(28, 61, 61);
     box-shadow: 3px 3px 20px rgb(137, 206, 208);
     width: 1250px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: math;
+ 
     
 }
