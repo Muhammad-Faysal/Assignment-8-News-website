@@ -1,0 +1,346 @@
+body{
+background-color: rgba(19, 17, 17, 0.982);
+
+
+
+}
+
+@font-face {
+    font-family: bigfont;
+    src: url(./font/ProtestRevolution-Regular.ttf);
+}
+/* 
+*{
+
+color: white;
+   
+}  */
+
+
+.firstnav {
+background-color: rgb(236 235 247 / 18%);
+
+padding: 14px;
+
+margin-top: 21px;
+padding-left: 75px;
+box-shadow: -2px 5px 10px rgb(105, 118, 146);
+width: 1180px;
+
+
+}
+
+
+.firstnav a{
+
+
+font-weight: bold;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+
+ margin-top: 0px;
+ /* text-shadow: 4px 4px 5px rgb(164, 103, 89); */
+ padding: 15px;
+
+
+}
+
+.firstnav :hover{
+
+    background-color: rgba(127, 255, 212, 0.349);
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding: 15px;
+    color: rgb(11, 71, 67);
+    transition: 0.7s all;
+    
+
+
+}
+
+.icon > img{
+
+
+    width: 70px;
+
+    margin-top: -13px;
+    
+    position: absolute;
+    border-radius: 12px;
+    margin-left: -4px;
+
+}
+
+.dawnicon > h1{
+
+
+text-align: center;
+color: rgb(26, 26, 216);
+/* font-weight: 900; */
+font-size: xxx-large;
+margin-top: 70px;
+text-shadow: 3px 3px 3px cornflowerblue;
+
+
+
+}
+
+.dawnicon a{
+
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+   text-decoration: solid crimson;
+ 
+ 
+}
+
+.dawnicon{
+
+    width: 1180px;
+margin: auto;
+text-align: center;
+}
+
+.nav2 ul{
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   margin-left: 30px;
+
+}
+
+.nav2 li{
+
+    list-style-type: none;
+ padding-top: 10px;
+ padding-bottom: 10px;
+
+    
+
+}
+
+.nav2 li :hover{
+
+ background-color: darkgray;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ color: rgb(11, 71, 67);
+ transition: 0.7s all;
+ padding: 12px;
+
+ 
+}
+.nav2 a{
+
+text-decoration: none;
+color: white;
+font-weight: bold;
+font-family: monospace;
+text-transform: uppercase;
+
+}
+.nav2{
+
+    /* margin-left: 70px; */
+    /* width: auto; */
+}
+
+.nav2 img{
+
+    width: 35px;
+   height: 34px;
+   
+}
+
+.searchbar input{
+ 
+height: 25px;
+border-radius: 5px;
+border: none;
+/* box-shadow: 3px 3px 3px gray; */
+outline: none;
+
+    
+}
+
+ label  :focus{
+
+
+
+}
+
+.bannerimg img{
+
+    height: 300px;
+    width: 800px;
+
+    /* box-shadow: 2px 5px 10px cadetblue; */
+
+}
+
+.bannerimg{
+
+    width: 1240px;
+color: white;
+text-align: center;
+
+}
+
+.gazavideo {
+    /* background-color: rgba(47, 79, 79, 0.352); */
+
+height: 300px;
+width: 900px;
+color: aliceblue;
+
+}
+
+
+
+.asidebar {
+
+
+float: right;
+right: auto;
+position: absolute;
+margin-top: -300px;
+margin-left: 980px;
+width: 230px;
+height: auto;
+color: antiquewhite;
+background-color: rgba(255, 255, 255, 0.244);
+box-shadow: 3px 3px 20px cornsilk;
+
+
+
+
+
+
+}
+
+
+.asidebar img{
+
+height: 150px;
+width: 150px;
+
+
+}
+
+.abdulsattaredhibanner img{
+
+height: 400px;
+width: 850px;
+/* margin-top: 200px; */
+
+
+}
+
+.abdulsattaredhibanner figcaption{
+
+    width: 930px;
+}
+
+.abdulsattaredhibanner h1{
+
+
+    color: rgb(139, 132, 194);
+}
+.abdulsattaredhibanner{
+
+    color: white;
+}
+
+.abdulsattaredhibanner h2{
+
+    color: rgb(139, 132, 194);
+}
+
+
+.form input{
+
+    height: 25px;
+    width: 250px;
+
+
+}
+
+.form{
+
+    color: white;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+
+.footerlast ul{
+
+    display: flex;
+    color: white;
+    padding: 12px;
+    
+    
+}
+
+.footerlast ul :hover{
+
+     background-color: cornflowerblue;
+     padding: 12px;
+     transition: 0.7s all;
+}
+
+
+
+.fonticon{
+
+position: absolute;
+right: 80px;
+display: flex;
+gap: 12px;
+
+
+
+
+}
+.fa-facebook{
+
+    color: rgb(7, 53, 205);
+    font-size: 30px;
+    float: left;
+
+    
+}
+
+.fa-square-x-twitter{
+
+
+    color: black;
+    font-size: 30px;
+    
+}
+
+.fa-youtube{
+
+color: red;
+font-size: 30px;
+
+
+}
+
+.fa-linkedin{
+
+    color: rgb(15, 15, 211);
+    font-size: 30px;
+}
+
+.footerlast{
+
+
+    background-color: rgb(28, 61, 61);
+    box-shadow: 3px 3px 20px rgb(137, 206, 208);
+    width: 1250px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
