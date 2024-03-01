@@ -84,40 +84,71 @@ text-decoration: none;
 .fa-location-dot{
 
 font-size: 30px;
+height: 45px;
+margin-top: -38px;
 position: absolute;
-right: 200px;
-display: flex;
-margin-top: -32px;
-word-spacing: px;
-width: 100px;
+margin-left: 900px;
+
 word-spacing: 10px;
+color: white;
 }
 
 
 .fa-circle-user{
 
     font-size: 30px;
+    height: 45px;
+    margin-top: -38px;
     position: absolute;
-    right: 130px;
-    display: flex;
- margin-top: -32px;
- word-spacing: px;
-width: 100px;
+    margin-left: 1000px;
+ color: white;
 word-spacing: 10px;
-color: antiquewhite;
+
+
+
 }
 
 .fa-bars{
     font-size: 30px;
+    height: 45px;
+    margin-top: -38px;
     position: absolute;
-    right: 50px;
-    display: flex;
- margin-top: -32px;
- word-spacing: 20px;
-width: 100px;
+    margin-left: 1100px;
+ color: white;
 word-spacing: 10px;
 
 }
+
+.fa-location-dot:hover{
+
+
+    /* color: gold; */
+
+    
+    color: royalblue;
+    transition: 0.7s all;
+}
+
+
+.fa-circle-user:hover{
+
+
+
+    
+    color: royalblue;
+    transition: 0.7s all;
+}
+
+
+.fa-bars:hover{
+
+    color: royalblue;
+    transition: 0.7s all;
+}
+
+
+
+
 
 .dawnicon > h1{
 
@@ -214,11 +245,11 @@ outline: none;
     
 }
 
- label  :focus{
+ /* label  :focus{
 
 
 
-}
+} */
 
 .bannerimg img{
 
@@ -295,7 +326,7 @@ width: 850px;
 
 .abdulsattaredhibanner figcaption{
 
-    width: 930px;
+    width: 900px;
 }
 
 .abdulsattaredhibanner h1{
@@ -311,6 +342,7 @@ width: 850px;
 .abdulsattaredhibanner h2{
 
     color: rgb(139, 132, 194);
+    
 }
 
 
@@ -402,11 +434,11 @@ button :hover{
 .fonticon{
 
 position: absolute;
-right: 80px;
+/* right: 80px; */
 display: flex;
 gap: 12px;
-
-
+margin-left: 1000px;
+margin-top: 12px;
 
 
 }
@@ -421,7 +453,8 @@ gap: 12px;
 
 .fa-facebook:hover{
 
-    color: rgba(16, 244, 88, 0.982);
+    color: rgb(15, 127, 23);
+    transition: 0.7s all;
 }
 
 .fa-square-x-twitter{
@@ -435,6 +468,7 @@ gap: 12px;
 .fa-square-x-twitter:hover{
 
     color: gold;
+    transition: 0.7s all;
 }
 
 .fa-youtube{
@@ -448,18 +482,21 @@ font-size: 30px;
 .fa-youtube:hover{
 
     color: rgb(12, 226, 246);
+    transition: 0.7s all;
 }
 
 .fa-linkedin{
 
     color: rgba(5, 5, 223, 0.893);
     font-size: 30px;
+
 }
 
 .fa-linkedin:hover{
 
 
     color: rgb(154, 50, 250);
+    transition: 0.7s all;
 }
 
 .footerlast{
