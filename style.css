@@ -263,7 +263,8 @@ width: 850px;
 
     height: 25px;
     width: 250px;
-
+    outline: none;
+ 
 
 }
 
@@ -273,6 +274,20 @@ width: 850px;
     font-weight: bold;
     margin-top: 100px;
     margin-left: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: rgba(10, 95, 95, 0.461); */
+    width: 400px;
+    
+}
+
+.form button{
+
+font-weight: bold;
+    color: cornsilk;
+    background-color: rgb(184, 11, 11);
+    border: none;
+    height: 25px;
+    border-radius: 4px;
 }
 
 
@@ -308,7 +323,7 @@ gap: 12px;
 }
 .fa-facebook{
 
-    color: rgb(7, 53, 205);
+    color: rgb(14, 68, 245);
     font-size: 30px;
     float: left;
 
@@ -333,7 +348,7 @@ font-size: 30px;
 
 .fa-linkedin{
 
-    color: rgb(15, 15, 211);
+    color: rgba(5, 5, 223, 0.893);
     font-size: 30px;
 }
 
