@@ -1,14 +1,12 @@
 body{
 background-color: rgba(19, 17, 17, 0.982);
 
-
-
 }
 
-@font-face {
+/* @font-face {
     font-family: bigfont;
     src: url(./font/ProtestRevolution-Regular.ttf);
-}
+} */
 /* 
 *{
 
@@ -16,7 +14,11 @@ color: white;
    
 }  */
 
+/* .maindiv{
 
+    height: auto;
+    width: 1200px;
+} */
 
 
 .firstnav {
@@ -27,7 +29,7 @@ padding: 14px;
 margin-top: 21px;
 padding-left: 75px;
 box-shadow: -2px 5px 10px rgb(105, 118, 146);
-width: 1180px;
+width: 1100px;
 
 
 }
@@ -75,11 +77,7 @@ text-decoration: none;
 }
 
 
-.navicon{
 
-   
-
-}
 
 .fa-location-dot{
 
@@ -180,6 +178,8 @@ margin: auto;
 text-align: center;
 }
 
+
+
 .nav2 ul{
 
     display: flex;
@@ -220,12 +220,7 @@ font-family: monospace;
 text-transform: uppercase;
 
 }
-.nav2{
 
-    /* margin-left: 70px; */
-    /* width: auto; */
-  
-}
 
 .nav2 img{
 
@@ -253,20 +248,35 @@ outline: none;
 
 .bannerimg img{
 
-    height: 300px;
-    width: 500px;
+   height: 250px;
+    width: 400px;
 
-    /* box-shadow: 2px 5px 10px cadetblue; */
+    box-shadow: 2px 5px 10px cadetblue;
 
 }
 
 .bannerimg{
 
-    width: 1190px;
+    display: flex;
+    flex-direction: row;
 color: white;
 text-align: center;
+margin-right: 30vw;
+width: fit-content;
+gap: 15px;
+
+
+
 
 }
+
+.firstfig{
+
+    color: white;
+    width: 900px;
+    text-align: center;
+}
+
 
 .gazavideo {
     /* background-color: rgba(47, 79, 79, 0.352); */
@@ -285,8 +295,7 @@ color: aliceblue;
 float: right;
 right: auto;
 position: absolute;
-margin-top: -300px;
-margin-left: 980px;
+margin-left: 935px;
 width: 230px;
 height: auto;
 color: antiquewhite;
@@ -315,6 +324,25 @@ color: rgb(0, 0, 0);
 
 }
 
+
+.Heading-abdulsattaredhi{
+
+   color: white;
+
+margin-top: 150px;
+font-family: Arial, Helvetica, sans-serif;
+
+
+    
+}
+
+.Heading-abdulsattaredhi:hover{
+
+color: gold;
+
+}
+
+
 .abdulsattaredhibanner img{
 
 height: 400px;
@@ -326,7 +354,7 @@ width: 850px;
 
 .abdulsattaredhibanner figcaption{
 
-    width: 900px;
+    width: 865px;
 }
 
 .abdulsattaredhibanner h1{
@@ -418,6 +446,7 @@ button :hover{
     padding: 12px;
     transition: 0.7s all;
     color: black;
+     transition: 0.7s all;
     
 }
 
@@ -425,6 +454,7 @@ button :hover{
 .firstul:hover{
   
     color: rgb(46, 216, 8);
+     transition: 3s all;
 
 }
 
@@ -453,7 +483,7 @@ margin-top: 12px;
 
 .fa-facebook:hover{
 
-    color: rgb(15, 127, 23);
+    color: rgb(20, 254, 51);
     transition: 0.7s all;
 }
 
